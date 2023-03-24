@@ -151,7 +151,7 @@ public class CtrlMoniteur {
             Logger.getLogger(CtrlMoniteur.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-        public Moniteur verifMoniteur(String login , String mdp){ //Connexion
+        public Moniteur verifMoniteur(String login , String mdp){
     Moniteur moiMoniteur=null;
     try{
         ps=cnx.prepareStatement("""
